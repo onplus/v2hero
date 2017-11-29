@@ -21,13 +21,17 @@
 5. 查看HerokuAPP并重启一次（More-->restart），从more-->view logs确认启动成功
 ![V2Ray started](https://user-images.githubusercontent.com/31188782/33355016-94b2902e-d4f0-11e7-85c7-e909491445e6.png)
 
-6. 配置V2Ray本地参数
+6. 配置V2Ray本地参数（以v2rayN为例）
+
+   ![v2rayN](https://user-images.githubusercontent.com/31188782/33361465-3b90a2a6-d513-11e7-9ddc-adad7ae829ed.png)
 
    https://www.v2ray.com/ui_client/
    
    https://toutyrater.github.io/basic/vmess.html#客户端配置
 
-
+   https://github.com/onplus/shadowsocks-heroku/issues/119
+   
+7. 配置浏览器等软件，chrome推荐switchyomega，FireFox57推荐simpleproxy  
 
 ### 实现参考
 
