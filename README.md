@@ -30,8 +30,11 @@
    https://toutyrater.github.io/basic/vmess.html#客户端配置
 
    https://github.com/onplus/shadowsocks-heroku/issues/119
-   
-7. 配置浏览器等软件，chrome推荐switchyomega，FireFox57推荐simpleproxy  
+   
+   
+7. 配置代理
+
+   v2ray客户端一般都实现了内外分流。对于习惯使用插件细化管理的，chrome上推荐[switchyomega](https://github.com/FelisCatus/SwitchyOmega/releases)，FireFox57推荐[simpleproxy ](https://addons.mozilla.org/zh-CN/firefox/addon/simpleproxy/?src=api) 
 
 ### 实现参考
 
