@@ -1,4 +1,4 @@
-# v2hero 
+# v2hero  [![Build Status](https://travis-ci.org/onplus/v2hero.svg?branch=ci)](https://travis-ci.org/onplus/v2hero)
 
 1. 点击[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/onplus/heroku_go-getting-started)创建HerokuAPP，配置服务器参数(appname和uuid，类似账号密码)
 
@@ -9,8 +9,8 @@
 
 3. 在项目的More options --> settings 设置Environment Variables：
    
-   HEROKU_APPNAME，HEROKU_EMAIL和[Heroku_APIKEY](https://dashboard.heroku.com/account)
-   ![Start logs](https://user-images.githubusercontent.com/31188782/33354167-6f029abc-d4ec-11e7-92f9-e78c4caf861c.png)
+   HEROKU_APPNAME，HEROKU_EMAIL和[HEROKU_APIKEY](https://dashboard.heroku.com/account)
+   ![ENV](https://user-images.githubusercontent.com/31188782/33354723-2e10d2e6-d4ef-11e7-8d6c-70be5b5eee2a.png)
 
 4. 环境变量配置完成后重新开始TraviCi Build
    ![Travis Restart](https://user-images.githubusercontent.com/31188782/33354474-13d66a40-d4ee-11e7-9016-3196a58df6c1.png)
