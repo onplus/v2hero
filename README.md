@@ -17,7 +17,7 @@
 
 
 5. 查看HerokuAPP并重启一次（More-->restart），从more-->view logs确认启动成功
-
+![V2Ray started](https://user-images.githubusercontent.com/31188782/33355016-94b2902e-d4f0-11e7-85c7-e909491445e6.png)
 
 6. 配置V2Ray本地参数
    https://www.v2ray.com/ui_client/
