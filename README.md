@@ -9,7 +9,8 @@
 
 3. 在项目的More options --> settings 设置Environment Variables：
    
-   HEROKU_APPNAME，HEROKU_EMAIL和[HEROKU_APIKEY](https://dashboard.heroku.com/account)
+   HEROKU_APPNAME(步骤一的appname)，HEROKU_EMAIL(注册heroku的邮箱)和[HEROKU_APIKEY](https://dashboard.heroku.com/account)(API Key)
+   
    ![ENV](https://user-images.githubusercontent.com/31188782/33354723-2e10d2e6-d4ef-11e7-8d6c-70be5b5eee2a.png)
 
 4. 环境变量配置完成后重新开始TraviCi Build
