@@ -23,15 +23,15 @@
 
 6. 配置V2Ray本地参数（[模版参考vmess+ws+tls](https://github.com/KiriKira/vTemplate/blob/master/websocket%2BTLS/config_client.json)）
 
-     以v2rayN为例：
-
-     ![v2rayN](https://user-images.githubusercontent.com/31188782/33361465-3b90a2a6-d513-11e7-9ddc-adad7ae829ed.png)
-
-     https://www.v2ray.com/ui_client/
+     以v2rayN为例 https://www.v2ray.com/ui_client/ 
+    
+    ![v2rayN80](https://user-images.githubusercontent.com/31188782/33420552-fdbcbd34-d5e9-11e7-897a-6508b9778e06.png)  
+      
+    ![v2rayN443](https://user-images.githubusercontent.com/31188782/33361465-3b90a2a6-d513-11e7-9ddc-adad7ae829ed.png)
    
-     https://toutyrater.github.io/basic/vmess.html#客户端配置
-
-     https://github.com/onplus/shadowsocks-heroku/issues/119
+     https://toutyrater.github.io/basic/vmess.html#客户端配置
+ 
+     https://github.com/onplus/shadowsocks-heroku/issues/119
    
    
 7. 配置代理
