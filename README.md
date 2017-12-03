@@ -1,5 +1,6 @@
 # v2hero  [![Build Status](https://travis-ci.org/onplus/v2hero.svg?branch=ci)](https://travis-ci.org/onplus/v2hero)
 
+
 1. 点击[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/onplus/heroku_go-getting-started)创建HerokuAPP，配置服务器参数(appname和uuid，类似账号密码)
 
    ![create new app heroku](https://user-images.githubusercontent.com/31188782/33353392-905c3abe-d4e8-11e7-812a-866f95875ef9.png)
@@ -15,7 +16,7 @@
 
    ![ENV](https://user-images.githubusercontent.com/31188782/33354723-2e10d2e6-d4ef-11e7-8d6c-70be5b5eee2a.png)
 
-4. 环境变量配置完成后重新开始TraviCi Build
+4. 环境变量配置完成后重新开始TraviCi Build（没有自动开始时，可以修改自己项目主动触发）
    ![Travis Restart](https://user-images.githubusercontent.com/31188782/33354474-13d66a40-d4ee-11e7-9016-3196a58df6c1.png)
    
    ![passed](https://user-images.githubusercontent.com/31188782/33358147-c7e5d65c-d501-11e7-8d67-8914c052e56c.png)
@@ -31,23 +32,23 @@
       
     ![v2rayN443](https://user-images.githubusercontent.com/31188782/33361465-3b90a2a6-d513-11e7-9ddc-adad7ae829ed.png)
    
-     https://toutyrater.github.io/basic/vmess.html#客户端配置
+     https://toutyrater.github.io/advanced/websocket.html
  
      https://github.com/onplus/shadowsocks-heroku/issues/119
    
    
 7. 配置代理
 
-   v2ray客户端一般都实现了内外分流。对于习惯使用插件细化管理的，chrome上推荐[switchyomega](https://github.com/FelisCatus/SwitchyOmega/releases)，FireFox57推荐[simpleproxy ](https://addons.mozilla.org/zh-CN/firefox/addon/simpleproxy/?src=api) 
+   v2ray客户端一般都实现了内外分流，也可以配合插件细化管理https://github.com/gfwlist/gfwlist/wiki
+   
+### 实现参考 
 
-### 实现参考
+https://github.com/v2ray/v2ray-core
 
 https://github.com/wangyi2005/v2ray
-
-https://hub.docker.com/r/v2ray/official/
 
 Heroku
 https://devcenter.heroku.com/articles/container-registry-and-runtime
 
 Travis-CI
-https://docs.travis-ci.com/user/docker/
+https://docs.travis-ci.com/user/docker
