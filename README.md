@@ -8,6 +8,7 @@
 
 4.客户端配置 client_config.json, 建议使用 cn_sniproxy+websocket+tls 传输协议。
 
+![V2Hero SpeedTest(http://www.speedtest.net/result/7350766756.png)
 
 # 参考 
 https://github.com/wangyi2005/v2ray-heroku
