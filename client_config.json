@@ -1,0 +1,103 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbound": {
+    "port": 8080,
+    "protocol": "http",
+    "listen": "127.0.0.1",
+    "settings": {}
+  },
+  "inboundDetour": [
+  {
+    "port": 1080,
+    "protocol": "socks",
+    "listen": "127.0.0.1",
+    "settings": {
+      "auth": "noauth",
+      "udp": false,
+      "ip": "127.0.0.1"
+    }
+  }
+  ],
+  "outbound": {
+    "protocol": "vmess",
+    "settings": {
+      "vnext": [
+      {
+         "address": "herokuapp_IP  or cn_sniproxy_ip",  
+         "port": 443, 
+         "users": [
+         {
+           "id": "your UUID",
+           "alterId": 64,
+           "security": "none"
+         }
+         ]
+     }
+     ]
+   },
+   "streamSettings": {
+     "network": "ws",
+     "security": "tls",
+     "tlsSettings": {
+       "serverName": "windows.com or herokuapp.com",
+       "allowInsecure": true
+      },
+     "wsSettings": {
+       "path": "",
+       "headers": {
+          "Host": "your_app_name.herokuapp.com"
+       }
+     }
+  },
+  "mux": {
+    "enabled": true,
+    "concurrency": 8
+  }
+},
+"outboundDetour": [
+    {
+      "protocol": "freedom",
+      "settings": {},
+      "tag": "direct"
+    }
+  ],
+  "dns": {
+    "servers": [
+      "localhost"
+    ]
+  },
+  "routing": {
+    "strategy": "rules",
+    "settings": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "type": "field",
+          "domain": ["geosite:cn"],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "100.64.0.0/10",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.0.0.0/24",
+            "192.0.2.0/24",
+            "192.168.0.0/16",
+            "198.18.0.0/15",
+            "198.51.100.0/24",
+            "203.0.113.0/24",
+            "geoip:cn"
+          ],
+          "outboundTag": "direct"
+        }
+      ]
+    }
+  }
+}
