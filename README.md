@@ -1,7 +1,7 @@
 # v2hero  [![Build Status](https://travis-ci.org/onplus/v2hero.svg?branch=ci)](https://travis-ci.org/onplus/v2hero)
 本项目是一个利用Travis-CI部署Docker到Heroku 的学习示例。
 
-如果为您的学习提供了帮助，欢迎给一个Star ^_^
+如果为您的学习提供了帮助，欢迎给一个Star ^_^ 
 
 * 部署方法
    https://github.com/onplus/v2hero/wiki/Deploy-V2ray-To-Heroku
