@@ -20,3 +20,5 @@
    - Travis-CI https://docs.travis-ci.com/user/docker
 
 ## 建议使用heroku.yml部署  https://github.com/wangyi2005/v2ray-heroku
+
+更新V2RAY内核为4.4
