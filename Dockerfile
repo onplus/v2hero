@@ -1,7 +1,7 @@
 FROM alpine:latest
 LABEL maintainer="https://github.com/onplus"
 
-#ENV VER=v4.20.0
+ENV VER=v4.22.1
 
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
  && mkdir -m 777 /v2raybin \
